@@ -1,0 +1,104 @@
+Choose one of the following operations:
+-push/add (enter the letter a)
+-pop/delete (enter the letter d)
+-topElement (enter the letter p)
+-check if the list is empty (enter the letter e)
+-Quit (enter the letter q)
+a
+Enter the String you want to push:
+This
+This pushed in
+Make a choice from the menu
+a
+Enter the String you want to push:
+Is
+Is pushed in
+Make a choice from the menu
+a
+Enter the String you want to push:
+A
+A pushed in
+Make a choice from the menu
+a
+Enter the String you want to push:
+Test
+Test pushed in
+Make a choice from the menu
+p
+Test on the top
+Make a choice from the menu
+d
+Test popped out
+Make a choice from the menu
+p
+A on the top
+Make a choice from the menu
+d
+A popped out
+Make a choice from the menu
+p
+Is on the top
+Make a choice from the menu
+q
+
+Choose one of the following operations:
+-Infix to postfix conversion (enter the letter i)
+-Postfix expression evaluation (enter the letter p)
+-Arithmetic expression evaluation (enter the letter a)
+-Quit the program (enter the letter q)
+i
+Enter the Infix expression to convert:
+4.99 * 1.06 + 5.99 + 6.99 * 1.06
+the postfix expression is: 4.99 1.06 * 5.99 + 6.99 1.06 * + 
+Make a choice from the menu
+a
+Enter the Arithmetic expression to evaluate
+4.99 * 1.06 + 5.99 + 6.99 * 1.06
+the value of the arithmetic expression is: 18.6888
+Make a choice from the menu
+p
+Enter the Postfix expression to evaluate
+6 5 2 3 + 8 * + 3 + *
+the value of the postfix expression is: 288.0
+Make a choice from the menu
+i
+Enter the Infix expression to convert:
+a + b * c + ( d * e + f ) * g
+the postfix expression is: a b c * + d e * f + g * + 
+Make a choice from the menu
+i
+Enter the Infix expression to convert:
+hello + goodbye - ( haha / this + was - a * ( convoluted - test ) + case ) - the + whole * ( time - afterall + ( see + friend ) )
+the postfix expression is: hello goodbye + haha this / was + a convoluted test - * - case + - the - whole time afterall - see friend + + * + 
+Make a choice from the menu
+a
+Enter the Arithmetic expression to evaluate
+1.743 / 1.8F + 1.941 * ( 14.431 - 9.1343 )
+the value of the arithmetic expression is: 11.249228033333333
+Make a choice from the menu
+i
+Enter the Infix expression to convert:
+100 * 1000 - ( 10 / 1.1342 ) + 154.4 + ( 134 * 72.1 )
+the postfix expression is: 100 1000 * 10 1.1342 / - 154.4 + 134 72.1 * + 
+Make a choice from the menu
+p
+Enter the Postfix expression to evaluate
+100 1000 * 10 1.1342 / - 154.4 + 134 72.1 * +
+the value of the postfix expression is: 109806.98321283724
+Make a choice from the menu
+p
+Enter the Postfix expression to evaluate
+10 20 -
+the value of the postfix expression is: -10.0
+Make a choice from the menu
+a
+Enter the Arithmetic expression to evaluate
+20 - 10
+the value of the arithmetic expression is: 10.0
+Make a choice from the menu
+a
+Enter the Arithmetic expression to evaluate
+100 * 1000 - ( 10 / 1.1342 ) + 154.4 + ( 134 * 72.1 )
+the value of the arithmetic expression is: 109806.98321283724
+Make a choice from the menu
+q

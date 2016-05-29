@@ -1,0 +1,26 @@
+Included are two separate Java files, each with multiple classes.
+However, each file only has one class with a main method.
+Therefore, each only can run through one class, making running fairly straightforward.
+In MyStack, there is an implementation of a Stack ADT.
+This includes the expected isEmpty, pop, push, and topElement
+Meanwhile, StackTest is the way for the user to interface with the class.
+Therein, the user is prompted to enter a key.
+If the user presses a, they can push a string.
+If the user presses d, they can pop a string. 
+If the user presses p, they get the topElement of the stack.
+If the user presses e, they will be told if the stack is empty or not. 
+If the user presses q, the program will quit.
+
+The other file is Converter.
+Converter uses the Stack ADT that is set up in MyStack.
+The file includes the Converter Class.
+This is not user operable, but includes the infixToPostfix method.
+This method changes expressions from standard infix notation to the stack friendly postfix notation.
+Additonally, there is the postfixValue method. 
+This will take any valid postfix expression passed and return the double value of the result of the expression.
+These are interfaced through the ConverterTest method.
+If the user presses i, they will be prompted for an infix expression that will be converted to postfix.
+If the user presses p, they will be prompted for a postfix expression that will have its result calculated.
+If the user presses a, they will be prompted for an infix expression that will have its result calculated.
+That last one is pretty neat if I do say so myself. It's pretty much a scientific calculator, not to boast...
+If the user presses q, the program will quit.
